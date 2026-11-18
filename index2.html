@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bruno Lousa | Portfolio BTS SIO SISR</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icônes Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <a href="#accueil" class="logo">
+                BL<span>.</span>
+            </a>
+
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= ACCUEIL ================= -->
+
+        <section id="accueil" class="hero">
+
+            <div class="container hero-container">
+
+                <div class="hero-text">
+
+                    <p class="small-title">
+                        <i class="fa-solid fa-terminal"></i>
+                        BTS SIO — SISR
+                    </p>
+
+                    <h1>
+                        Bonjour, je suis
+                        <span>Bruno Lousa</span>
+                    </h1>
+
+                    <h2>
+                        Étudiant en systèmes & réseaux
+                    </h2>
+
+                    <p>
+                        Je suis étudiant en BTS SIO spécialité SISR
+                        à l'Institut F2I de Vincennes.
+                        Je m'intéresse à l'administration système,
+                        aux réseaux, au dépannage informatique
+                        et à la cybersécurité.
+                    </p>
+
+                    <div class="buttons">
+
+                        <a href="#projets" class="btn primary">
+                            Voir mes projets
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn secondary">
+                            Me contacter
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Terminal -->
+
+                <div class="terminal">
+
+                    <div class="terminal-header">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+
+                    <div class="terminal-body">
+
+                        <p>
+                            <span class="green-text">bruno@portfolio</span>:~$
+                            whoami
+                        </p>
+
+                        <p class="white">
+                            Bruno Lousa
+                        </p>
+
+                        <p>
+                            <span class="green-text">bruno@portfolio</span>:~$
+                            formation
+                        </p>
+
+                        <p class="white">
+                            BTS SIO - SISR
+                        </p>
+
+                        <p class="white">
+                            Institut F2I - Vincennes
+                        </p>
+
+                        <p>
+                            <span class="green-text">bruno@portfolio</span>:~$
+                            status
+                        </p>
+
+                        <p class="blue-text">
+                            ● Étudiant en systèmes et réseaux
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= À PROPOS ================= -->
+
+        <section id="apropos" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <p>01 — À PROPOS</p>
+                    <h2>Qui suis-je ?</h2>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div>
+
+                        <h3>
+                            Étudiant en systèmes et réseaux
+                        </h3>
+
+                        <p>
+                            Je suis actuellement étudiant en
+                            <strong>BTS Services Informatiques aux Organisations
+                            — option SISR</strong> à l'Institut F2I de Vincennes.
+                        </p>
+
+                        <p>
+                            Ma formation me permet de développer mes compétences
+                            dans l'administration des systèmes, la configuration
+                            des réseaux, la maintenance informatique et la
+                            sécurité des infrastructures.
+                        </p>
+
+                        <p>
+                            J'ai également pu mettre mes connaissances en
+                            pratique lors de mon stage à la
+                            <strong>Mairie de Limeil-Brévannes</strong>.
+                        </p>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+
+                        <h3>Mon domaine</h3>
+
+                        <p>
+                            Systèmes, réseaux, infrastructure informatique
+                            et support utilisateur.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMPÉTENCES ================= -->
+
+        <section id="competences" class="section dark">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>02 — COMPÉTENCES</p>
+
+                    <h2>
+                        Mes compétences techniques
+                    </h2>
+
+                </div>
+
+
+                <div class="skills">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-windows"></i>
+                        </div>
+
+                        <h3>Systèmes</h3>
+
+                        <ul>
+                            <li>Windows</li>
+                            <li>Windows Server</li>
+                            <li>Active Directory</li>
+                            <li>Gestion utilisateurs</li>
+                            <li>GPO</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+
+                        <h3>Réseaux</h3>
+
+                        <ul>
+                            <li>TCP/IP</li>
+                            <li>Configuration de switches</li>
+                            <li>Diagnostic réseau</li>
+                            <li>Réseaux locaux</li>
+                            <li>Administration réseau</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+
+                        <h3>Virtualisation</h3>
+
+                        <ul>
+                            <li>VMware Workstation</li>
+                            <li>Machines virtuelles</li>
+                            <li>Environnements de test</li>
+                            <li>Windows Server</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+
+                        <h3>Outils</h3>
+
+                        <ul>
+                            <li>PuTTY</li>
+                            <li>VMware Workstation</li>
+                            <li>Windows Server</li>
+                            <li>Active Directory</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+
+                        <h3>Maintenance</h3>
+
+                        <ul>
+                            <li>Déploiement PC</li>
+                            <li>Installation</li>
+                            <li>Configuration</li>
+                            <li>Diagnostic</li>
+                            <li>Dépannage</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+
+                        <h3>Support</h3>
+
+                        <ul>
+                            <li>Assistance utilisateurs</li>
+                            <li>Résolution d'incidents</li>
+                            <li>Interventions sur site</li>
+                            <li>Dépannage écoles</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPÉRIENCE ================= -->
+
+        <section id="experience" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>03 — EXPÉRIENCE</p>
+
+                    <h2>Mon expérience professionnelle</h2>
+
+                </div>
+
+
+                <div class="experience-card">
+
+                    <div class="experience-icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="date">
+                            Stage — 2026 / 2027
+                        </span>
+
+                        <h3>
+                            Mairie de Limeil-Brévannes
+                        </h3>
+
+                        <h4>
+                            Technicien informatique
+                        </h4>
+
+                        <p>
+                            Durant mon stage, j'ai participé à différentes
+                            missions liées à la gestion et à la maintenance
+                            du parc informatique de la mairie.
+                        </p>
+
+                        <div class="tags">
+                            <span>Déploiement PC</span>
+                            <span>Switch</span>
+                            <span>PuTTY</span>
+                            <span>Dépannage</span>
+                            <span>Support</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="experience-card">
+
+                    <div class="experience-icon">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="date">
+                            Intervention sur site
+                        </span>
+
+                        <h3>
+                            Dépannage dans les écoles
+                        </h3>
+
+                        <p>
+                            Participation à des interventions dans les écoles
+                            de Limeil-Brévannes afin de diagnostiquer et
+                            résoudre différents problèmes informatiques.
+                        </p>
+
+                        <div class="tags">
+                            <span>Diagnostic</span>
+                            <span>Maintenance</span>
+                            <span>Dépannage</span>
+                            <span>Assistance</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJETS ================= -->
+
+        <section id="projets" class="section dark">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>04 — PROJETS</p>
+
+                    <h2>Mes réalisations</h2>
+
+                </div>
+
+
+                <div class="projects">
+
+                    <!-- AD -->
+
+                    <article class="project-card">
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-users-gear"></i>
+                        </div>
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Projet Active Directory
+                        </h3>
+
+                        <p>
+                            Mise en place d'un environnement Active Directory
+                            dans un environnement virtualisé avec
+                            VMware Workstation ou Hyper-V.
+                        </p>
+
+                        <div class="tags">
+                            <span>Windows Server</span>
+                            <span>Active Directory</span>
+                            <span>DNS</span>
+                            <span>GPO</span>
+                            <span>VMware</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Déploiement PC -->
+
+                    <article class="project-card">
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Déploiement de PC
+                        </h3>
+
+                        <p>
+                            Préparation, installation et configuration
+                            de postes informatiques dans le cadre
+                            de mon stage.
+                        </p>
+
+                        <div class="tags">
+                            <span>Windows</span>
+                            <span>Installation</span>
+                            <span>Configuration</span>
+                            <span>Maintenance</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Switch -->
+
+                    <article class="project-card">
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Configuration de switch
+                        </h3>
+
+                        <p>
+                            Participation à la configuration et au
+                            dépannage d'équipements réseau avec
+                            utilisation de PuTTY.
+                        </p>
+
+                        <div class="tags">
+                            <span>PuTTY</span>
+                            <span>Switch</span>
+                            <span>CLI</span>
+                            <span>Réseau</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Dépannage -->
+
+                    <article class="project-card">
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+
+                        <span class="project-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Dépannage informatique
+                        </h3>
+
+                        <p>
+                            Diagnostic et résolution de problèmes
+                            informatiques lors d'interventions dans
+                            les écoles.
+                        </p>
+
+                        <div class="tags">
+                            <span>Diagnostic</span>
+                            <span>Maintenance</span>
+                            <span>Support</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FORMATION ================= -->
+
+        <section id="formation" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>05 — FORMATION</p>
+
+                    <h2>Mon parcours</h2>
+
+                </div>
+
+
+                <div class="formation">
+
+                    <div class="formation-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="date">
+                            2026 — 2027
+                        </span>
+
+                        <h3>
+                            BTS Services Informatiques aux Organisations
+                        </h3>
+
+                        <h4>
+                            Option SISR
+                        </h4>
+
+                        <p>
+                            <strong>
+                                Institut F2I — Vincennes
+                            </strong>
+                        </p>
+
+                        <p>
+                            Formation orientée vers l'administration des
+                            systèmes, des réseaux, la maintenance,
+                            la virtualisation et la cybersécurité.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OBJECTIF ================= -->
+
+        <section class="objective">
+
+            <div class="container objective-content">
+
+                <div>
+
+                    <p>MON OBJECTIF</p>
+
+                    <h2>
+                        Évoluer dans le domaine
+                        des systèmes et réseaux.
+                    </h2>
+
+                    <p>
+                        Je souhaite continuer à développer mes compétences
+                        en administration système, réseau et cybersécurité
+                        afin de participer à la gestion et à la sécurisation
+                        d'infrastructures informatiques professionnelles. Ainsi je vais poursuivre en licence pour pousser au bac+3
+                    </p>
+
+                </div>
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>06 — CONTACT</p>
+
+                    <h2>Me contacter</h2>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <div>
+
+                        <h3>
+                            Parlons informatique.
+                        </h3>
+
+                        <p>
+                            Pour toute question concernant mon parcours,
+                            mes projets ou mes compétences, vous pouvez
+                            me contacter à l'adresse mail suivante lousa2296@gmail.com
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div>
+                            <i class="fa-solid fa-user"></i>
+
+                            <span>Nom</span>
+
+                            <strong>
+                                Bruno Lousa
+                            </strong>
+                        </div>
+
+
+                        <div>
+                            <i class="fa-solid fa-graduation-cap"></i>
+
+                            <span>Formation</span>
+
+                            <strong>
+                                BTS SIO — SISR
+                            </strong>
+                        </div>
+
+
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <span>Établissement</span>
+
+                            <strong>
+                                Institut F2I — Vincennes
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Bruno Lousa — Portfolio BTS SIO SISR
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        function toggleMenu() {
+
+            const menu = document.getElementById("navLinks");
+
+            menu.classList.toggle("active");
+
+        }
+
+    </script>
+
+</body>
+</html>
